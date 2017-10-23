@@ -1,0 +1,281 @@
+/*app styles*/
+
+body {
+  font-family: helvetica;
+  background-image:url(bg.jpeg);
+}
+
+header {
+  background: rgb(157, 130, 181);
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+header section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header section img {
+  margin-top: 12px;
+  float: left;
+  margin-right: 20px;
+}
+
+header section li {
+  color: #fff;
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+
+header section li {
+  color: #fff;
+  display: inline-block;
+  margin-top: 45px;
+  margin-right: 60px;
+  font-size: 20px;
+}
+
+header section nav {
+  text-align: center;
+  margin-top: -20px;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.skills {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+  line-height: 70px;
+}
+
+.stitle {
+  color: white;
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+}
+
+.sub-banners li {
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.sub-banners li:last-child {
+  margin-right: 0;
+}
+
+.portfolio li {
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.portfolio li:last-child {
+  margin-right: 0px;
+}
+
+.featured-section {
+  clear: both;
+}
+
+h2 {
+  color: white;
+}
+
+.featured-section img {
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.featured-section div {
+  margin-top: 30px;
+  width: 300px;
+  float: left;
+}
+
+.featured section div h2 {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.featured-section div p {
+  color: white;
+  line-height: 50px;
+  height: 300px;
+  overflow: auto;
+}
+
+button {
+  border: none;
+  padding: 8px 36px;
+  color: #fff;
+  background: rgb(0,0,0);
+  font-size: 21px;
+  border-radius: 3px;
+}
+
+/*footer {
+  height: 150px;
+  background: #888;
+  clear: both;
+}*/
+
+footer {
+  background: rgb(157, 130, 181);
+  background-size: cover;
+  overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    z-index: 10;
+    margin-top: 475px;
+    position: relative;
+    clear: both;
+}
+
+/*social media start*/
+.follow {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 60px;
+  color: white;
+}
+
+.copyright {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 600px;
+}
+
+.social {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 70px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: tomato;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.social .link.linkedin {
+  background-color: #0077B5;
+}
+
+.social .link.github {
+  background-color: #333;
+}
+/*social media end*/
+/*contact form start*/
+h3 {
+font-size: 36px;
+color: #9d82b5;
+text-align: center;
+}
+
+.aboutme {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 10px;
+  color: white;
+  line-height: 50px;
+}
+
+.googlemap {
+margin: 0 auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #9d82b5;
+    padding: 20px;
+    height: 520px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+
+/*contact form end*/
